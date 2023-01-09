@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+PALETA DE COLORES
+/* Color Theme Swatches in Hex */
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-1-hex { color: #81A649; }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-2-hex { color: #9DA658; }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-3-hex { color: #D3D9A7; }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-4-hex { color: #402313; }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-5-hex { color: #A66B49; }
+
+/* Color Theme Swatches in RGBA */
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-1-rgba { color: rgba(128, 165, 72, 1); }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-2-rgba { color: rgba(156, 165, 87, 1); }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-3-rgba { color: rgba(210, 216, 166, 1); }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-4-rgba { color: rgba(63, 35, 19, 1); }
+.hand-holdig-big-tree-growing-on-green-background-with-sunshine-5-rgba { color: rgba(165, 106, 72, 1); }
+/* FUENTES 
+font-family: 'Merriweather', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+ */
+
+.navBar li{
+    list-style: none;
+    color: whitesmoke;
+    margin: 25px;
+    width: 100px;
+    justify-content: flex-end;
+    font-family: 'Nunito', sans-serif ;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(128, 165, 72, 1);
+    align-items: center;
+}
+.logo-titulo img {
+    height: 80px;
+    margin-bottom: 5px;
+    left: 15px;
+    display: flex;
+    position: absolute;
+    top: -5px;
+    
+}
+.logo-titulo a{
+    justify-content: center;
+    margin-left: 15px;
+
+}
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;}
+a, a:hover {
+    color: black;
+}
+.navBar {
+    display: flex;
+    height: 50px;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+}
+.banner-index {
+    position:relative
+}
+.banner-index h1 {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    width: 40%;
+    height: 10%;
+    top: 2%;
+    left: 2%;
+}
+.banner-index p {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    width: 40%;
+    top: 14%;
+    left: 2%;
+    font-weight: 500;
+}
+.box-pregunta1 h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-weight: 500;
+    margin: 10px;
+}
+.box-pregunta1 {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    top: 14%;
+    left: 2%;
+    width: 100%;
+}
+.box-pregunta1 p {
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    font-weight: 500;
+}
+.banner-index img {
+    width: 100%;
+}
+.proceso-bokashi-simple{
+    align-items: center;
+    display: flex;
+}
+.tarjetas-proceso img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #A66B49;
+}
+.proceso-bokashi-simple div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.proceso-bokashi-simple h2  {
+    margin: 10px;
+    align-self: center;
+    width: 80%%;
+    display: flex;
+    font-family: 'Signika Negative', sans-serif ;
+    font-weight: 300;
+    
+}
+.proceso-bokashi-simple p {
+    margin: 6px;
+    font-family: 'Signika Negative', sans-serif ;
+    display: flex;
+    font-weight: lighter;
+    align-self: center;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:rgba(128, 165, 72, 1);
+}
+.logo-footer img {
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    left: 15px;
+    float: left;
+}
+.footer-nav li{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    width: 160px;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif ;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.social-media-logos img {
+    width: 30px;
+}
+.proximamente {
+    position: relative;
+}
+.proximamente img {
+    width: 100%;
+    position: absolute;
+}
+.proximamente h4 {
+    font-family: 'Nunito', sans-serif ;
+    font-size: larger;
+    position: absolute;
+}
+a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;}
+a, a:hover {
+    color: black;
+}
+.beneficios-bokashi {
+    align-items: center;
+    display: flex;
+}
+.tarjetas-beneficio img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+.beneficios-bokashi div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tarjetas-beneficio{
+    border: #402313;
+    border-radius: 25%;
+    border-style: groove;
+    border-width: 2px;
+    margin: 5px;
+}
+.beneficios-bokashi h2  {
+    margin: 10px;
+    font-size: small;
+    font-weight:bolder
+    align-self: center;
+    width: 80%%;
+    display: flex;
+    font-family: 'Signika Negative', sans-serif;
+}
+.beneficios-bokashi p {
+    margin: 6px;
+    font-family:'Merriweather', serif;
+    font-size: smaller;
+    display: flex;
+    font-weight: lighter;
+    align-self: center;
+    margin: 20px;
+}
+.politicas h1 {
+    font-family: 'Merriweather', serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 15px;
+}
+.politicas p {
+    font-family: 'Merriweather', serif;
+    font-size: medium;
+    margin: 15px; 
+}
+.container-qs img {
+    width: 100%;
+    position: relative;
+}
+.boton-contacto h4 {
+    border: #000000;
+    background-color: #81A649;
+    border-radius: 25%;
+    width: 200px;
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color:#9DA658 ;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color:  #81A649 ;
+}
+
+
+.container-form {
+    border-radius: 5px;
+    background-color: #D3D9A7;
+    padding: 20px;
+}
